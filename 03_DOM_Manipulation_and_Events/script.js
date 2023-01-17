@@ -1,3 +1,11 @@
+btn = document.querySelector('#btn')
+btn.addEventListener('click', () => {
+    alert('Salam World!!')
+    });
+btn.addEventListener('click', function (e) {
+    console.log(e.target);
+})
+
 container = document.querySelector('#container');
 
 // div .content
